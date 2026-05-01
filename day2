@@ -28,5 +28,50 @@ int main() {
         // logic 
         cout << "Not Eligible For vote";
     }
+
+//
+// Problem 3 -- Nested If - else condition 
+// to verify user's age wether eligible for vote or not ?
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+    
+    
+    if(age >= 18) {
+        if (age >= 100) {
+            cout <<"Eligible for Vote (But we are Super senior citizen";
+        } else {
+            cout <<"Eligible for Vote";
+        }
+    } else {
+        if(age < 0) {
+            cout << "Enter a Valid Age number";
+        } else {
+            cout << "Not Eligible for Vote";
+        }
+    }
+    return 0;
+}
+
+// Problem 4 -- Ternary Operator 
+// Find the Greater number among 2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    int max_Number;
+    
+    cin >> a >> b;
+    // Ternary Operator
+    max_Number = (a > b) ? a : b;
+    
+    cout << max_Number;
+    return 0;
+}
     return 0;
 }
