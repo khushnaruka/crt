@@ -37,7 +37,7 @@ int main()
 }
 
 
-//inverteed trianlge
+//inverteed trianlge(half blank space,half *)
 #include <iostream>
 using namespace std;
 
