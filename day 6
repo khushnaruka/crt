@@ -59,3 +59,18 @@
 //     updatebyRefrence(original);
 //     cout << original;
 // }
+#include <iostream>
+using namespace std;
+    int bill(int n){
+        int total=n*30;
+        return total;   
+    }
+    int main() {
+        int n;
+        cout<<"Enter the number of cups of coffee: ";
+        cin>>n;
+        cout<<"Total bill: "<<bill(n);
+        return 0;
+
+
+}
